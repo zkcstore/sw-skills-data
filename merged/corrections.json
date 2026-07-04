@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "schema_version": 1,
+    "generated_at": "2026-07-04T00:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "merged_4dac4292088a",
+      "query_pattern": "薄壁拉伸",
+      "llm_translation_hint": "thin wall extrude",
+      "correct_member": "IFeatureManager.FeatureExtrusionThin2",
+      "correction_type": "wrong_member",
+      "report_count": 1,
+      "confidence": 1.0,
+      "sw_versions": [
+        "2022"
+      ],
+      "status": "validated"
+    },
+    {
+      "id": "merged_test_new",
+      "query_pattern": "钣金折弯",
+      "llm_translation_hint": "sheet metal bend",
+      "correct_member": "IFeatureManager.InsertSheetMetalBend",
+      "correction_type": "missing_result",
+      "report_count": 3,
+      "confidence": 0.85,
+      "sw_versions": [
+        "2021",
+        "2022"
+      ],
+      "status": "validated"
+    }
+  ]
+}
