@@ -2,9 +2,9 @@
   "meta": {
     "schema_version": 1,
     "user_id": "user_25d3c94c",
-    "generated_at": "2026-07-04T19:48:07.324236",
-    "upload_count": 3,
-    "total_uploaded_before": 3,
+    "generated_at": "2026-07-04T20:27:57.323059",
+    "upload_count": 4,
+    "total_uploaded_before": 6,
     "base_version": "2015",
     "sync_type": "incremental"
   },
@@ -53,6 +53,21 @@
       "report_count": 1,
       "inference_level": "exact",
       "created_at": "2026-07-04T18:05:20.317561"
+    },
+    {
+      "id": "merged_test_new",
+      "query_pattern": "钣金折弯",
+      "llm_translation": "sheet metal bend",
+      "wrong_member": null,
+      "correct_member": "IFeatureManager.InsertSheetMetalBend",
+      "correction_type": "missing_result",
+      "sw_version": "",
+      "base_version": "2015",
+      "validation_status": "external",
+      "user_note": "[Downloaded] confidence=0.85, reports=3. Status: auto",
+      "report_count": 3,
+      "inference_level": "exact",
+      "created_at": "2026-07-04T19:48:58.867720"
     }
   ]
 }
